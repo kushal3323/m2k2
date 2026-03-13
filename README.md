@@ -1,52 +1,41 @@
-# Welcome to your Expo app 👋
+# GuideLight
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+GuideLight is a **voice-first indoor navigation assistant for visually impaired users**.  
+It helps users navigate large indoor spaces like malls using **voice interaction, camera guidance, and safety alerts**.
 
-## Get started
+---
 
-1. Install dependencies
+## Problem
 
-   ```bash
-   npm install
-   ```
+Millions of visually impaired people face difficulty navigating indoor public spaces such as malls because GPS does not work indoors and most navigation systems rely on visual interfaces.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Solution
 
-In the output, you'll find options to open the app in a
+GuideLight enables users to **navigate malls independently** through voice interaction and camera-based guidance.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Features
 
-## Get a fresh project
+- Voice-first interaction designed for visually impaired users  
+- Mall selection and destination selection through voice prompts  
+- Camera-based navigation guidance  
+- Obstacle warning alerts  
+- Step-by-step voice navigation instructions  
+- Emergency **SOS alert system**
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## Tech Stack
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- **Frontend:** React Native (Expo)
+- **Backend:** Firebase
+- **Computer Vision:** OpenCV *(planned for full implementation)*
+- **AI Models:** TensorFlow Lite *(planned for obstacle detection)*
+- **Voice Interaction:** Speech APIs
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# m2k2
-hackathon project
+## Project Structure
