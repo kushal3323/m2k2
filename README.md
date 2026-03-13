@@ -39,3 +39,73 @@ GuideLight enables users to **navigate malls independently** through voice inter
 ---
 
 ## Project Structure
+
+```
+GuideLight
+│
+├── app
+│   ├── splash.tsx        # Splash screen when the app starts
+│   ├── mall.tsx          # Voice interaction for mall and destination selection
+│   ├── camera.tsx        # Camera navigation and obstacle guidance
+│   ├── navigation.tsx    # Navigation guidance screen
+│   ├── voice.tsx         # Voice interaction logic
+│
+├── app.json              # Expo configuration
+├── package.json          # Project dependencies
+├── README.md             # Project documentation
+```
+
+---
+
+## Application Flow
+
+```
+Open App
+↓
+Splash Screen
+↓
+Voice Assistant Prompt
+↓
+Mall Selection
+↓
+Destination Selection
+↓
+Camera Navigation Guidance
+↓
+Obstacle Detection Alerts
+↓
+Destination Reached
+```
+
+---
+
+## Running the Project
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the app
+
+```bash
+npx expo start
+```
+
+Open the project using **Expo Go** on your mobile device.
+
+---
+
+## Future Improvements
+
+- Real-time speech recognition
+- AI-based obstacle detection
+- Indoor positioning using Bluetooth beacons
+- Dynamic indoor route navigation
+
+---
+
+## Hackathon Project
+
+This project was developed as part of a **college hackathon focused on improving accessibility and independence for visually impaired individuals**.
